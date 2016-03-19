@@ -4,9 +4,41 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a5edfc9bbbd804b8e5adafd1ef7312b2",
-    "content-hash": "e0f383cdef36d8e666f59e61cc8c600a",
+    "hash": "eac8ff5f761ebb3f153c5623e95faea9",
+    "content-hash": "b49b5111e82d14d98425d95d95175eab",
     "packages": [
+        {
+            "name": "alexey-kupershtokh/lazy-apc-class-loader",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/AlexeyKupershtokh/LazyApcClassLoader.git",
+                "reference": "464933cd38da2df89b08d266090fd835a0ba21e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/AlexeyKupershtokh/LazyApcClassLoader/zipball/464933cd38da2df89b08d266090fd835a0ba21e3",
+                "reference": "464933cd38da2df89b08d266090fd835a0ba21e3",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "AlexeyKupershtokh\\LazyApcClassLoader\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Alexey Kupershtokh",
+                    "email": "alexey.kupershtokh@gmail.com"
+                }
+            ],
+            "time": "2014-10-12 23:32:45"
+        },
         {
             "name": "andrewsville/php-token-reflection",
             "version": "1.4.0",

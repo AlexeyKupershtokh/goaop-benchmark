@@ -28,8 +28,9 @@ CODE;
     /**
      * @Loggable()
      */
-    public function do$i()
+    public function do$i(\$a, \$b, \$c, \$d, \$e, \$f)
     {
+        return __METHOD__;
     }
 
 CODE;
@@ -50,5 +51,6 @@ CODE;
     {
         $contents = $this->generateClassContents($namespace, $name, $numberOfMethods);
         file_put_contents($dir.$name.'.php', $contents);
+        chmod($dir.$name.'.php', 0777);
     }
 }

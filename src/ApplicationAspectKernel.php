@@ -4,6 +4,7 @@ namespace GoAOPBenchmark;
 
 use Go\Core\AspectKernel;
 use Go\Core\AspectContainer;
+use GoAOPBenchmark\Aspects\LoggingAspect;
 
 /**
  * Application Aspect Kernel
@@ -20,5 +21,6 @@ class ApplicationAspectKernel extends AspectKernel
      */
     protected function configureAop(AspectContainer $container)
     {
+        $container->registerAspect(new LoggingAspect());
     }
 }
