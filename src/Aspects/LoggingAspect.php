@@ -16,6 +16,7 @@ class LoggingAspect implements Aspect
      */
     public function beforeMethodExecution(MethodInvocation $invocation)
     {
+        #print $invocation->getMethod()->getName();
 //        $obj = $invocation->getThis();
 //        echo 'Calling Before Interceptor for method: ',
 //        is_object($obj) ? get_class($obj) : $obj,

@@ -36,6 +36,14 @@ CODE;
 CODE;
         }
         $contents .= <<<CODE
+
+    /**
+     * @Loggable()
+     */
+    public static function static_method(\$a, \$b, \$c, \$d, \$e, \$f)
+    {
+        return __METHOD__;
+    }
 }
 CODE;
         return $contents;
