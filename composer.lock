@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "eac8ff5f761ebb3f153c5623e95faea9",
-    "content-hash": "b49b5111e82d14d98425d95d95175eab",
+    "hash": "886d7f6454da5fd5a756b8a7891f6be7",
+    "content-hash": "589a0a01f471e9572b7ab37451680c54",
     "packages": [
         {
             "name": "alexey-kupershtokh/lazy-apc-class-loader",
@@ -210,16 +210,16 @@
         },
         {
             "name": "goaop/framework",
-            "version": "1.0.2",
+            "version": "dev-issue-265",
             "source": {
                 "type": "git",
-                "url": "https://github.com/goaop/framework.git",
-                "reference": "6ac59e6d00c04ba1fb7319453a0537697a2d3300"
+                "url": "https://github.com/AlexeyKupershtokh/framework.git",
+                "reference": "2e7d1b58b67e93ce31144b2ca4e89704cc2fdb45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/goaop/framework/zipball/6ac59e6d00c04ba1fb7319453a0537697a2d3300",
-                "reference": "6ac59e6d00c04ba1fb7319453a0537697a2d3300",
+                "url": "https://api.github.com/repos/AlexeyKupershtokh/framework/zipball/2e7d1b58b67e93ce31144b2ca4e89704cc2fdb45",
+                "reference": "2e7d1b58b67e93ce31144b2ca4e89704cc2fdb45",
                 "shasum": ""
             },
             "require": {
@@ -248,7 +248,6 @@
                     "Go\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -266,7 +265,10 @@
                 "library",
                 "php"
             ],
-            "time": "2016-03-07 21:09:32"
+            "support": {
+                "source": "https://github.com/AlexeyKupershtokh/framework/tree/issue-265"
+            },
+            "time": "2016-03-21 00:59:20"
         },
         {
             "name": "jakubledl/dissect",
@@ -327,7 +329,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "goaop/framework": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

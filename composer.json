@@ -1,11 +1,17 @@
 {
     "require": {
-        "goaop/framework": "^1.0",
+        "goaop/framework": "dev-issue-265",
         "alexey-kupershtokh/lazy-apc-class-loader": "^1.1"
     },
     "autoload": {
       "psr-4": {
         "GoAOPBenchmark\\": "src/"
       }
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@github.com:AlexeyKupershtokh/framework.git"
+        }
+    ]
 }
